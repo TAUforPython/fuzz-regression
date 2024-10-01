@@ -6,9 +6,9 @@ def prepare_plot(labels=None):
     if not labels:
         labels = ['x', 'y']
 
-    plt.figure(figsize=(18, 10))
-    plt.xticks(fontsize=14)
-    plt.yticks(fontsize=14)
+    plt.figure(figsize=(10, 5))
+    plt.xticks(fontsize=12)
+    plt.yticks(fontsize=12)
     plt.xlabel('x' if not len(labels) > 0 else labels[0], fontsize=18)
     plt.ylabel('y' if not len(labels) > 1 else labels[1], fontsize=18)
 
