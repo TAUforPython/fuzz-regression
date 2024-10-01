@@ -303,7 +303,6 @@ def fuz_sym_lin_reg_QP_expert(list_of_coordinates, h, k1=1, k2=1):
 
     Q = np.array(Q_matrix) * 2
     
-    %debug
     p_vector = []
     for j in range(n+1):
         p_vector.append(0.)  # c
